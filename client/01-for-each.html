@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    <hr>
+    <div id="todos"></div>
+
+    <script>
+        const products = [
+            {title: 'Burger', price: 12},
+            {title: 'Pizza', price: 25},
+            {title: 'Cola', price: 3}
+        ];
+
+        const app = document.getElementById('app');
+        products.forEach(p => {
+            app.innerHTML += `<li>${p.title} - ${p.price}</li>`;
+        });
+
+        const toDos = [
+            {name: 'Llorar con la llorona', complete: true},
+            {name: 'JS Arrays', complete: false},
+            {name: 'React', complete: false},
+            {name: 'React Native', complete: false},
+        ];
+
+        const toDosDom = document.getElementById('todos');
+        toDos.forEach(el => {
+            toDosDom.innerHTML += `<li>${el.name} - ${el.complete}</li>`;
+        })
+
+    </script>
+</body>
+</html>
