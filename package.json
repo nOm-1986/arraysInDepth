@@ -1,0 +1,22 @@
+{
+  "name": "10-arraysindepth",
+  "version": "1.0.0",
+  "description": "Studiying arrays in depth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nOm-1986/arraysInDepth.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nOm-1986/arraysInDepth/issues"
+  },
+  "homepage": "https://github.com/nOm-1986/arraysInDepth#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
