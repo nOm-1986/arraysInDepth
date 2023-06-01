@@ -1,3 +1,4 @@
+//Filter return an array.
 const words = ['spray', 'limit', 'elite', 'exuberant', 'huge','breathtaking'];
 
 //As you can see, filter does that its name says. As same as map it is unmutable.
