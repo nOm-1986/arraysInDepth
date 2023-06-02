@@ -5,3 +5,4 @@ const rta = numbers.reduce((acumulador, numero) => {
     return acumulador + numero;
 }, 0);
 console.log(rta)
+console.log(numbers);
