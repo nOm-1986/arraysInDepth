@@ -39,8 +39,15 @@ const calendars = {
     ],
   };
 
-const challenge = calendars.primaryCalendar.flatMap(item => item.startDate);
-//console.log(challenge);
+//const challenge = calendars.primaryCalendar.flatMap(item => item.startDate);
+//console.log(challenge);//Nice try.
+
+
+//Right answer.
+//1-Get just de values from primaryCalendar and secondCalendar
+const one = Object.values(calendars);
+console.log(one);
+
 
 const rta3 = Object.values(calendars).flatMap(item => item.map(date => date.startDate));
 console.log(rta3);
