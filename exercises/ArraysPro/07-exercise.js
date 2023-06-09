@@ -32,6 +32,7 @@ const input = [
     "Juan Amador"
 ];
 
+//My solution
 const sortByLastName = (arr) => {
     return arr
         .map(item => item.split(' '))
@@ -44,3 +45,12 @@ const sortByLastName = (arr) => {
 
 const res = sortByLastName(input);
 console.log(res);
+
+//Page Solution
+const sortPage = (arr) => {
+    return arr.sort((a,b) => {
+        const lastNameA = a.split(' ')[1];
+        const lastNameB = b.split(' ')[1];
+        return lastNameA.localeCompare(lastNameB);
+    })
+}
