@@ -4,7 +4,8 @@ const users = [
     { userid: 3, username: "Nico", attributes: ['Nice','Cool']}
 ];
 
-const rta = users.map(item => item.attributes).flat();
+//const rta = users.map(item => item.attributes).flat();
+const rta = users.map(item => item.attributes)
 console.log(rta);
 
 console.log('________________________')
