@@ -21,4 +21,4 @@ La función sayHi consta de una sentencia try...catch, recordemos que si no hay 
 excepción el código ejecuta el bloque try pero como si generamos una excepción entonces entramos 
 al bloque catch donde el parámetro e adopta el valor de la excepción, osea, Hello world!. 
 Por eso el resultado es "Oh no an error! Hello world!"
- */
+*/
