@@ -29,4 +29,10 @@ const input = [
 const countWords = (arr) => {
     return arr.join(' ').split(' ').length;
 }
-console.log(countWords(input));
+//console.log(countWords(input));
+
+
+const anotherWayToDoit = (ar) => {
+  return ar.flatMap(it => it.split(' ')).length
+}
+console.log(anotherWayToDoit(input));
